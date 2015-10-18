@@ -1,0 +1,83 @@
+0) University of Michigan Solar Car Team: 381.0102584       staleness: 0:10:10.422000   est location -14.70625415, 132.7697248
+1) Solar Team Twente: 378.5997904       staleness: 0:04:41.422000   est location -14.69974, 132.748337
+2) Punch Powertrain Solar Team: 358.2988869     staleness: 0:04:11.422000   est location -14.61775523, 132.587985
+3) Tokai University: 356.964005     staleness: 0:19:06.422000   est location -14.61141481, 132.5774422
+4) Nuon Solar Team: 349.0158554     staleness: 0:13:32.422000   est location -14.58184226, 132.5111354
+5) Stanford Solar Car Project: 347.2350335      staleness: 0:04:30.422000   est location -14.57827, 132.494995
+6) GAMF Hungary: 322.311873     staleness: 0:48:59.422000   est location -14.47981088, 132.3160324
+7) Kogakuin University: 322.2969696     staleness: 0:07:59.422000   est location -14.47977818, 132.3158981
+8) EAFIT-EPM Solar Car Team: 322.2969696        staleness: 0:17:51.422000   est location -14.47977818, 132.3158981
+9) Solar Team Eindhoven: 322.2522596        staleness: 0:16:25.422000   est location -14.47968007, 132.3154951
+10) Western Sydney University Solar Car Project: 318.7619801        staleness: 0:13:58.422000   est location -14.47189321, 132.2840805
+11) Blue Sky Solar Racing: 318.2565608      staleness: 0:14:54.422000   est location -14.47077057, 132.279529
+12) NWU Solar: 313.3321183      staleness: 0:05:26.422000   est location -14.44684044, 132.2425916
+13) Goko High School: 306.4319812       staleness: 0:22:31.422000   est location -14.40766272, 132.1964588
+14) IVE Solar Car Team: 305.8032472     staleness: 0:07:22.422000   est location -14.40647664, 132.1907474
+15) NIT Solar Car Racing Club: 305.1773819      staleness: 0:29:58.422000   est location -14.4051825, 132.1850968
+16) K.I.T. Yumekobo Solar Car Project: 305.1628905      staleness: 0:04:54.422000   est location -14.40513625, 132.1849709
+17) Team UKZN: 300.253762       staleness: 0:13:43.422000   est location -14.37338077, 132.15808
+18) Principia Solar Car Team: 291.8428956       staleness: 0:21:20.422000   est location -14.31953172, 132.1075019
+19) Jusolarteam: 291.0332791        staleness: 0:05:36.422000   est location -14.31375203, 132.102925
+20) HS Bochum SolarCar-Team: 288.3367607        staleness: 0:19:36.422000   est location -14.29775929, 132.0846949
+21) University of Minnesota: 280.2929364        staleness: 0:05:23.422000   est location -14.23833, 132.045566
+22) Anadolu Solar Team: 274.0197095     staleness: 0:10:38.422000   est location -14.18391909, 132.0344042
+23) KUST (Kookmin University Solar Car Team): 260.3219136       staleness: 0:07:09.422000   est location -14.077004, 131.9838102
+24) Massachusetts Institute of Technology Solar Electric Vehicle Team: 260.0613458      staleness: 0:07:08.422000   est location -14.07557923, 131.9818913
+25) KGHM Lodz Solar Team: 244.5729184       staleness: 0:21:44.422000   est location -13.96114, 131.903776
+26) Team Solaris: 236.191048        staleness: 0:13:50.422000   est location -13.90424708, 131.85384
+27) UNSW Solar Racing Team -SUNSWIFT: 234.4136587       staleness: 0:04:59.422000   est location -13.890164, 131.8462974
+28) Houston Solar Race Team: 225.5209426        staleness: 0:07:29.422000   est location -13.81543444, 131.8364052
+29) ITS Solar Car Racing Team: 216.6557845      staleness: 0:08:32.422000   est location -13.76530583, 131.7762308
+30) University of Tehran Solar Car Team: 200.2027272        staleness: 0:21:52.422000   est location -13.66154219, 131.6816609
+31) Adelaide University Solar Racing Team: 193.3131199      staleness: 0:34:20.422000   est location -13.629215, 131.6279883
+32) Liberty Solar Car Team: 174.7315481     staleness: 0:13:36.422000   est location -13.569995, 131.490997
+33) Sun Shuttle: 166.3935892        staleness: 0:22:18.422000   est location -13.55851, 131.4306947
+34) SunSPEC: 149.1951972        staleness: 0:21:33.422000   est location -13.45388407, 131.3223972
+35) Siam Tech 1: 141.1421979        staleness: 0:06:01.422000   est location -13.39983317, 131.2752692
+36) Clenergy TeamArrow: 119.1468142     staleness: 3:30:24.422000   est location -13.26578709, 131.1505479
+37) Durham University Electric Motorsport: 65.31856446      staleness: 2:16:37.422000   est location -12.82399538, 131.1319189
+38) Eco Photon: 64.26056083     staleness: 0:19:46.422000   est location -12.8157622, 131.1270284
+39) Ardingly Solar: 56.06692589     staleness: 0:08:35.422000   est location -12.75181301, 131.0974177
+40) TAFE SA Solar Spirit: 14.21911675       staleness: 4:13:03.422000   est location -12.44022333, 130.9416338
+############################################
+0) University of Michigan Solar Car Team: 381.0102584       staleness: 0:11:10.681000   est location -14.70625415, 132.7697248
+1) Solar Team Twente: 378.5997904       staleness: 0:05:41.681000   est location -14.69974, 132.748337
+2) Punch Powertrain Solar Team: 358.2988869     staleness: 0:05:11.681000   est location -14.61775523, 132.587985
+3) Tokai University: 356.964005     staleness: 0:20:06.681000   est location -14.61141481, 132.5774422
+4) Nuon Solar Team: 349.0158554     staleness: 0:14:32.681000   est location -14.58184226, 132.5111354
+5) Stanford Solar Car Project: 347.2350335      staleness: 0:05:30.681000   est location -14.57827, 132.494995
+6) GAMF Hungary: 322.311873     staleness: 0:49:59.681000   est location -14.47981088, 132.3160324
+7) Kogakuin University: 322.2969696     staleness: 0:08:59.681000   est location -14.47977818, 132.3158981
+8) EAFIT-EPM Solar Car Team: 322.2969696        staleness: 0:18:51.681000   est location -14.47977818, 132.3158981
+9) Solar Team Eindhoven: 322.2522596        staleness: 0:17:25.681000   est location -14.47968007, 132.3154951
+10) Western Sydney University Solar Car Project: 318.7619801        staleness: 0:14:58.681000   est location -14.47189321, 132.2840805
+11) Blue Sky Solar Racing: 318.2565608      staleness: 0:15:54.681000   est location -14.47077057, 132.279529
+12) NWU Solar: 313.3321183      staleness: 0:06:26.681000   est location -14.44684044, 132.2425916
+13) Goko High School: 306.4319812       staleness: 0:23:31.681000   est location -14.40766272, 132.1964588
+14) IVE Solar Car Team: 305.8032472     staleness: 0:08:22.681000   est location -14.40647664, 132.1907474
+15) NIT Solar Car Racing Club: 305.1773819      staleness: 0:30:58.681000   est location -14.4051825, 132.1850968
+16) K.I.T. Yumekobo Solar Car Project: 305.1628905      staleness: 0:05:54.681000   est location -14.40513625, 132.1849709
+17) Team UKZN: 300.253762       staleness: 0:14:43.681000   est location -14.37338077, 132.15808
+18) Principia Solar Car Team: 291.8428956       staleness: 0:22:20.681000   est location -14.31953172, 132.1075019
+19) Jusolarteam: 291.0332791        staleness: 0:06:36.681000   est location -14.31375203, 132.102925
+20) HS Bochum SolarCar-Team: 288.3367607        staleness: 0:20:36.681000   est location -14.29775929, 132.0846949
+21) University of Minnesota: 280.2929364        staleness: 0:06:23.681000   est location -14.23833, 132.045566
+22) Anadolu Solar Team: 274.0197095     staleness: 0:11:38.681000   est location -14.18391909, 132.0344042
+23) KUST (Kookmin University Solar Car Team): 260.3219136       staleness: 0:08:09.681000   est location -14.077004, 131.9838102
+24) Massachusetts Institute of Technology Solar Electric Vehicle Team: 260.0613458      staleness: 0:08:08.681000   est location -14.07557923, 131.9818913
+25) KGHM Lodz Solar Team: 244.5729184       staleness: 0:22:44.681000   est location -13.96114, 131.903776
+26) Team Solaris: 236.191048        staleness: 0:14:50.681000   est location -13.90424708, 131.85384
+27) UNSW Solar Racing Team -SUNSWIFT: 234.4136587       staleness: 0:05:59.681000   est location -13.890164, 131.8462974
+28) Houston Solar Race Team: 225.5209426        staleness: 0:08:29.681000   est location -13.81543444, 131.8364052
+29) ITS Solar Car Racing Team: 216.6557845      staleness: 0:09:32.681000   est location -13.76530583, 131.7762308
+30) University of Tehran Solar Car Team: 200.2027272        staleness: 0:22:52.681000   est location -13.66154219, 131.6816609
+31) Adelaide University Solar Racing Team: 193.3131199      staleness: 0:35:20.681000   est location -13.629215, 131.6279883
+32) Liberty Solar Car Team: 174.7315481     staleness: 0:14:36.681000   est location -13.569995, 131.490997
+33) Sun Shuttle: 166.3935892        staleness: 0:23:18.681000   est location -13.55851, 131.4306947
+34) SunSPEC: 149.1951972        staleness: 0:22:33.681000   est location -13.45388407, 131.3223972
+35) Siam Tech 1: 141.1421979        staleness: 0:07:01.681000   est location -13.39983317, 131.2752692
+36) Clenergy TeamArrow: 119.1468142     staleness: 3:31:24.681000   est location -13.26578709, 131.1505479
+37) Durham University Electric Motorsport: 65.31856446      staleness: 2:17:37.681000   est location -12.82399538, 131.1319189
+38) Eco Photon: 64.26056083     staleness: 0:20:46.681000   est location -12.8157622, 131.1270284
+39) Ardingly Solar: 56.06692589     staleness: 0:09:35.681000   est location -12.75181301, 131.0974177
+40) TAFE SA Solar Spirit: 14.21911675       staleness: 4:14:03.681000   est location -12.44022333, 130.9416338
