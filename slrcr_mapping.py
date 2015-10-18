@@ -226,6 +226,7 @@ def getRaceDataIndex(start_index, cur_lat, cur_long):
         read_long = line[2]
         if (distanceBetween(cur_lat, cur_long, float(read_lat), float(read_long)) <  0.01):
             return i
+    return start_index
 
 def getRaceDistance(index):
     return float(race_data[index][0])
