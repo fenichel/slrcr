@@ -36,6 +36,7 @@ class SLRCR:
         self.race_data_index = 1
         self.cur_race_distance = 0.0
         self.prev_race_distance = 0.0
+        self.est_speed = 0.0
 
     def update(self, data):
         if self.position != getPosition(data):
@@ -53,6 +54,8 @@ class SLRCR:
                 self.race_data_index = new_index
                 self.prev_race_distance = self.cur_race_distance
                 self.cur_race_distance = getRaceDistance(self.race_data_index)
+                self.speed = computeSpeed(self.prev_race_distance, self.prev_time,
+                    self.cur_race_distance, self.cur_time)
 
             #print "New position for team " + self.name
             #print getPosition(data) + ", distance " + str(getDist(data))
@@ -86,6 +89,9 @@ class SLRCR:
 
     def getLong(self):
         return self.long
+
+    def getSpeed(self):
+        return self.est_speed
 
 def getTeams():
     teams = {}
@@ -129,9 +135,12 @@ def getTime(item):
     dt = datetime.strptime(strtime, "%Y-%m-%d %H:%M:%S")
     return dt
 
-def computeTeamPosition(old_position, old_time, new_position, new_time, cur_time):
+def computeSpeed(old_position, old_time, new_position, new_time):
     time_diff = (new_time - old_time).total_seconds() / 3600
     speed = (new_position - old_position) / time_diff
+
+def computeTeamPosition(old_position, old_time, new_position, new_time, cur_time):
+    speed = computeSpeed(old_position, old_time, new_position, new_time)
     cur_position = new_position + speed * ((cur_time - new_time).total_seconds() / 3600)
     return cur_position
 
