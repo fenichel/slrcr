@@ -216,15 +216,17 @@ def printRanking(ranking):
     output_file.write("############################################\r\n")
 
 def distanceBetween(lat_a, long_a, lat_b, long_b):
-    return math.fabs((math.sqrt(lat_a * lat_a + long_a * long_a) -
-    math.sqrt(lat_b * lat_b + long_b * long_b)))
+    lat_diff = lat_a - lat_b
+    long_diff = long_a - long_b
+    return math.sqrt(lat_diff * lat_diff + long_diff * long_diff)
 
 def getRaceDataIndex(start_index, cur_lat, cur_long):
     for i in range(start_index, len(race_data)):
         line = race_data[i]
         read_lat = line[1]
         read_long = line[2]
-        if (distanceBetween(cur_lat, cur_long, float(read_lat), float(read_long)) <  0.01):
+        distance_between = distanceBetween(cur_lat, cur_long, float(read_lat), float(read_long))
+        if distance_between < 0.01:
             return i
     return start_index
 
