@@ -138,6 +138,7 @@ def getTime(item):
 def computeSpeed(old_position, old_time, new_position, new_time):
     time_diff = (new_time - old_time).total_seconds() / 3600
     speed = (new_position - old_position) / time_diff
+    return speed
 
 def computeTeamPosition(old_position, old_time, new_position, new_time, cur_time):
     speed = computeSpeed(old_position, old_time, new_position, new_time)
