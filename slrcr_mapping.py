@@ -6,6 +6,7 @@ from datetime import datetime
 from operator import itemgetter
 import csv
 import math
+from os import path
 
 """
 Caveat emptor:
@@ -18,8 +19,11 @@ To run forever instead of for a few hours, change the loop at the bottom.
 """
 
 url = "http://www.worldsolarchallenge.org/api/positions"
-csv_filename = "C:\Users\Zanzibar\Downloads\wsc_Elevation_profile.csv"
-output_filename = "C:\Users\Zanzibar\Desktop\SLRCR"
+
+# Fill in your CSV filename here:
+csv_filename = path.normpath("C:/Users/Zanzibar/Documents/slrcr-master/wsc_Elevation_profile.csv")
+# And your output filename here:
+output_filename = path.normpath("C:/Users/Zanzibar/Desktop/SLRCR")
 
 class SLRCR:
     def __init__(self, name):
@@ -158,6 +162,7 @@ def getMapCenter():
     return str(twente_info.getLat()) + "," + str(twente_info.getLong())
 
 def makeUrl():
+    # Add calls to makeTeamUrlByName here to add more teams to the map.
     url =("https://maps.googleapis.com/maps/api/staticmap?size=640x640&zoom=9&center="
         + getMapCenter()
         + makeTeamUrlByName("University of Michigan Solar Car Team")
@@ -165,14 +170,14 @@ def makeUrl():
         + makeTeamUrlByName("Solar Team Twente")
         + makeTeamUrlByName("Tokai University")
         + makeTeamUrlByName("Nuon Solar Team")
-        + makeTeamUrlByName("Stanford Solar Car Project")
-        + makeTeamUrlByName("GAMF Hungary"))
+        + makeTeamUrlByName("Stanford Solar Car Project"))
     return url
 
 def makeTeamUrlByName(name):
     team_data = team_info[name]
     color = "red"
     letter = "S"
+    # Add cases here to set colors and letters for more teams.
     if (name == "University of Michigan Solar Car Team"):
         color = "yellow"
         letter = "M"
@@ -191,17 +196,10 @@ def makeTeamUrlByName(name):
     elif (name == "Stanford Solar Car Project"):
         letter = "S"
         color = "red"
-    elif (name == "GAMF Hungary"):
-        letter = "H"
-        color = "grey"
     else:
         return
-    # print name
     est_lat = race_data[team_data.getRaceIndex()][1]
     est_long = race_data[team_data.getRaceIndex()][2]
-    # print team_data.getRaceIndex()
-    # print est_lat
-    # print est_long
     url =  makeTeamUrl(color, est_lat, est_long, letter)
     return url
 
@@ -257,5 +255,4 @@ while(True):
     updateAll()
     printRanking(rankTeams())
     print "############################################"
-    #print makeUrl()
     time.sleep(60)
